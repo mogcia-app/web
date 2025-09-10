@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -14,7 +15,7 @@ export default function Header() {
             <div className="flex items-center">
               <Link href="/" className="flex items-center space-x-3 group">
                 <div className="w-14 h-14 flex-shrink-0">
-                  <img src="/mogcialogo.png" alt="MOGCIA Logo" className="w-full h-full object-contain" />
+                  <Image src="/mogcialogo.png" alt="MOGCIA Logo" width={56} height={56} className="w-full h-full object-contain" />
                 </div>
                 <div className="flex flex-col">
                   <span className="text-lg font-bold text-gray-900 group-hover:text-blue-600 transition-colors">株式会社MOGCIA</span>

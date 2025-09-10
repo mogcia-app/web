@@ -1,3 +1,5 @@
+import Image from 'next/image';
+
 export default function Hero() {
   return (
     <section className="relative overflow-hidden bg-white">
@@ -21,7 +23,7 @@ export default function Hero() {
         <div className="flex flex-col lg:flex-row items-center gap-8 lg:gap-12">
           {/* Tech Life Communication SVG - Left side */}
           <div className="relative w-96 h-96 md:w-[28rem] md:h-[28rem] lg:w-[600px] lg:h-[600px] opacity-90 flex-shrink-0">
-            <img src="/Open Doodles - Helping.svg" alt="Open Doodles Helping" className="w-full h-full object-contain" />
+            <Image src="/Open Doodles - Helping.svg" alt="Open Doodles Helping" width={600} height={600} className="w-full h-full object-contain" />
             {/* Decorative circles on SVG */}
             <div className="absolute top-8 right-8 w-12 h-12 bg-blue-500 rounded-full opacity-30 animate-bounce" style={{animationDuration: '3s'}}></div>
             <div className="absolute top-1/3 left-4 w-8 h-8 bg-blue-400 rounded-full opacity-30 animate-bounce" style={{animationDuration: '4s', animationDelay: '1s'}}></div>

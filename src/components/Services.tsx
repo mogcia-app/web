@@ -1,4 +1,5 @@
 import { PenOff, Globe, TrendingUp } from 'lucide-react';
+import Image from 'next/image';
 
 export default function Services() {
   const services = [
@@ -54,7 +55,7 @@ export default function Services() {
           {/* Decorative illustration at bottom */}
           <div className="flex justify-center">
             <div className="w-60 h-60 md:w-[32rem] md:h-[32rem] opacity-80 transform rotate-12">
-              <img src="/oo.svg" alt="Decorative illustration" className="w-full h-full object-contain" />
+              <Image src="/oo.svg" alt="Decorative illustration" width={512} height={512} className="w-full h-full object-contain" />
             </div>
           </div>
         </div>
@@ -68,7 +69,7 @@ export default function Services() {
             >
               {/* Background decoration */}
               <div className={`absolute top-0 right-0 ${index === 0 ? 'w-28 h-28' : 'w-32 h-32'} opacity-80 transform translate-x-6 -translate-y-10 z-20`}>
-                <img src={index === 0 ? "/Open Doodles - Swinging.svg" : index === 1 ? "/Open Doodles - Unboxing.svg" : "/Open Doodles - Zombieing.svg"} alt="Decorative illustration" className="w-full h-full object-contain" />
+                <Image src={index === 0 ? "/Open Doodles - Swinging.svg" : index === 1 ? "/Open Doodles - Unboxing.svg" : "/Open Doodles - Zombieing.svg"} alt="Decorative illustration" width={128} height={128} className="w-full h-full object-contain" />
               </div>
               
               <div className="flex items-start gap-4 relative z-10">
@@ -121,7 +122,7 @@ export default function Services() {
               {/* 左側: SVGイラスト */}
               <div className="flex-shrink-0">
                 <div className="w-64 h-64 md:w-80 md:h-80 lg:w-96 lg:h-96 opacity-90">
-                  <img src="/Open Doodles - Together.svg" alt="Open Doodles Together" className="w-full h-full object-contain" />
+                  <Image src="/Open Doodles - Together.svg" alt="Open Doodles Together" width={384} height={384} className="w-full h-full object-contain" />
                 </div>
               </div>
               

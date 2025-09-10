@@ -1,3 +1,5 @@
+import Image from 'next/image';
+
 export default function IntroFlow() {
   const steps = [
     {
@@ -55,7 +57,7 @@ export default function IntroFlow() {
             {/* 左側: イラスト */}
             <div className="flex-shrink-0">
               <div className="w-48 h-48 md:w-64 md:h-64 opacity-90">
-                <img src="/Tech Life - Communication.svg" alt="Tech Life Communication" className="w-full h-full object-contain" />
+                <Image src="/Tech Life - Communication.svg" alt="Tech Life Communication" width={256} height={256} className="w-full h-full object-contain" />
               </div>
             </div>
 

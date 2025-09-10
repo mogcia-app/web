@@ -1,4 +1,5 @@
 import { Metadata } from 'next';
+import Script from 'next/script';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 
@@ -264,7 +265,7 @@ export default function ContactPage() {
       <Footer />
       
       {/* Formrun Script */}
-      <script src="https://sdk.form.run/js/v2/formrun.js"></script>
+      <Script src="https://sdk.form.run/js/v2/formrun.js" strategy="afterInteractive" />
     </div>
   );
 }
