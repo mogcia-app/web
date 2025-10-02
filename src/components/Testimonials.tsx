@@ -53,7 +53,7 @@ export default function Testimonials() {
 
               {/* お客様の声 */}
               <blockquote className="text-gray-700 mb-6 leading-relaxed">
-                "{testimonial.content}"
+                &ldquo;{testimonial.content}&rdquo;
               </blockquote>
 
               {/* お客様情報 */}
