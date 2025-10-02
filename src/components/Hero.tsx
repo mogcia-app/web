@@ -56,9 +56,9 @@ export default function Hero() {
               'Webサイト制作',
               'LP制作',
               'ノーコード制作',
-              'マーケティング',
+              'A/Bテスト',
               'SEO対策',
-              'SNS運用'
+             'Web集客'
               ].map((service, index) => (
                 <div key={index} className="bg-white/60 backdrop-blur-sm border border-blue-600 rounded-xl px-4 py-3 text-sm font-medium text-gray-700 hover:bg-white/80 transition-all duration-300 hover:shadow-md">
                   {service}
@@ -68,7 +68,11 @@ export default function Hero() {
             
             {/* CTA buttons */}
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-            <button className="bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white px-10 py-4 rounded-lg text-sm font-semibold transition-all duration-300 shadow-lg hover:shadow-xl hover:scale-105">
+            
+              <button className="bg-white/80 backdrop-blur-sm border-2 border-gray-300 hover:border-gray-400 text-gray-700 px-10 py-4 rounded-xl font-semibold text-lg transition-all duration-300 hover:bg-white hover:shadow-md">
+                よくある質問
+              </button>
+              <button className="bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white px-10 py-4 rounded-lg text-sm font-semibold transition-all duration-300 shadow-lg hover:shadow-xl hover:scale-105">
               <span className="flex items-center gap-1.5">
                 <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
@@ -76,9 +80,6 @@ export default function Hero() {
                 お問い合わせ
               </span>
             </button>
-              <button className="bg-white/80 backdrop-blur-sm border-2 border-gray-300 hover:border-gray-400 text-gray-700 px-10 py-4 rounded-xl font-semibold text-lg transition-all duration-300 hover:bg-white hover:shadow-md">
-                制作実績を見る
-              </button>
             </div>
           </div>
         </div>

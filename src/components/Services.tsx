@@ -99,13 +99,6 @@ export default function Services() {
                     )}
                   </div>
                   
-                  {/* Arrow icon */}
-                  <div className="flex items-center text-gray-400 group-hover:text-gray-600 transition-colors">
-                    <span className="text-xs font-medium mr-1">詳細</span>
-                    <svg className="w-3 h-3 group-hover:translate-x-0.5 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                    </svg>
-                  </div>
                 </div>
               </div>
             </a>
@@ -171,8 +164,8 @@ export default function Services() {
                 </p>
                 <div className="flex flex-wrap gap-2">
                   <span className="inline-block bg-purple-200 text-purple-800 px-3 py-1 rounded-full text-xs font-medium">コンバージョン最適化</span>
-                  <span className="inline-block bg-purple-200 text-purple-800 px-3 py-1 rounded-full text-xs font-medium">A/Bテスト</span>
                   <span className="inline-block bg-purple-200 text-purple-800 px-3 py-1 rounded-full text-xs font-medium">コピーライティング</span>
+                  <span className="inline-block bg-purple-200 text-purple-800 px-3 py-1 rounded-full text-xs font-medium">デザイン制作</span>
                 </div>
               </div>
 
@@ -194,21 +187,21 @@ export default function Services() {
                 </div>
               </div>
 
-              {/* マーケティング */}
+              {/* A/Bテスト */}
               <div className="bg-white rounded-2xl p-8 hover:shadow-xl transition-all duration-300 group border border-gray-200">
                 <div className="w-16 h-16 bg-orange-600 rounded-2xl flex items-center justify-center mb-6 mx-auto group-hover:scale-110 transition-transform duration-300">
                   <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5H7a2 2 0 00-2 2v10a2 2 0 002 2h8a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01" />
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
                   </svg>
                 </div>
-                <h4 className="text-xl font-bold text-gray-900 mb-4">マーケティング</h4>
+                <h4 className="text-xl font-bold text-gray-900 mb-4">A/Bテスト</h4>
                 <p className="text-gray-600 mb-4 text-sm">
-                  マーケティング戦略の立案と実行。市場分析から顧客セグメンテーション、キャンペーン設計まで、お客様のビジネス成長を加速させるマーケティング支援を提供します。
+                  データに基づいた改善提案とA/Bテストの実施。ユーザーの行動を分析し、コンバージョン率向上のための最適なソリューションを提供します。
                 </p>
                 <div className="flex flex-wrap gap-2">
-                  <span className="inline-block bg-orange-200 text-orange-800 px-3 py-1 rounded-full text-xs font-medium">戦略立案</span>
-                  <span className="inline-block bg-orange-200 text-orange-800 px-3 py-1 rounded-full text-xs font-medium">顧客分析</span>
-                  <span className="inline-block bg-orange-200 text-orange-800 px-3 py-1 rounded-full text-xs font-medium">キャンペーン設計</span>
+                  <span className="inline-block bg-orange-200 text-orange-800 px-3 py-1 rounded-full text-xs font-medium">テスト設計</span>
+                  <span className="inline-block bg-orange-200 text-orange-800 px-3 py-1 rounded-full text-xs font-medium">データ分析</span>
+                  <span className="inline-block bg-orange-200 text-orange-800 px-3 py-1 rounded-full text-xs font-medium">改善提案</span>
                 </div>
               </div>
 
@@ -230,21 +223,21 @@ export default function Services() {
                 </div>
               </div>
 
-              {/* SNS運用 */}
+              {/* Web集客 */}
               <div className="bg-white rounded-2xl p-8 hover:shadow-xl transition-all duration-300 group border border-gray-200">
                 <div className="w-16 h-16 bg-cyan-600 rounded-2xl flex items-center justify-center mb-6 mx-auto group-hover:scale-110 transition-transform duration-300">
                   <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" />
                   </svg>
                 </div>
-                <h4 className="text-xl font-bold text-gray-900 mb-4">SNS運用</h4>
+                <h4 className="text-xl font-bold text-gray-900 mb-4">Web集客</h4>
                 <p className="text-gray-600 mb-4 text-sm">
-                  ブランド認知度向上と顧客エンゲージメント強化のためのSNS運用。各プラットフォームの特性を活かしたコンテンツ戦略と投稿スケジュール管理で、効果的なSNSマーケティングを実現します。
+                  効果的なWeb集客戦略の立案と実行。SEO、SNS、広告運用など、複数のチャネルを組み合わせて、お客様のビジネスに最適な集客ソリューションを提供します。
                 </p>
                 <div className="flex flex-wrap gap-2">
-                  <span className="inline-block bg-cyan-200 text-cyan-800 px-3 py-1 rounded-full text-xs font-medium">コンテンツ制作</span>
-                  <span className="inline-block bg-cyan-200 text-cyan-800 px-3 py-1 rounded-full text-xs font-medium">投稿管理</span>
-                  <span className="inline-block bg-cyan-200 text-cyan-800 px-3 py-1 rounded-full text-xs font-medium">SNS運用</span>
+                  <span className="inline-block bg-cyan-200 text-cyan-800 px-3 py-1 rounded-full text-xs font-medium">集客戦略</span>
+                  <span className="inline-block bg-cyan-200 text-cyan-800 px-3 py-1 rounded-full text-xs font-medium">広告運用</span>
+                  <span className="inline-block bg-cyan-200 text-cyan-800 px-3 py-1 rounded-full text-xs font-medium">コンテンツマーケティング</span>
                 </div>
               </div>
             </div>
